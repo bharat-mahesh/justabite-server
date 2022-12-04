@@ -33,5 +33,5 @@ app.use("/user",userRouter)
 
 
 app.listen(process.env.PORT,()=>{
-    console.log("Listening on 5000");
+    console.log("Listening on "+ process.env.PORT);
 })
